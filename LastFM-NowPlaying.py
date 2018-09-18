@@ -13,7 +13,7 @@ apiKey = ("460cda35be2fbf4f28e8ea7a38580730")
 currentTrackURL = ('http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&nowplaying="true"&user=' + str(userName) + '&api_key=' + str(apiKey))
 runCheck = True
 waitTime = 0
-noSongPlaying = ("Nothing Currently Playing")
+noSongPlaying = ("Nothing Currently Playing     ")
 
 #Defines the funcions for use in different threads.
 def checkForNewSong():
